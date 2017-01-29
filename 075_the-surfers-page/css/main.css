@@ -1,0 +1,34 @@
+html {
+  background-color: #004466;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana;
+}
+
+
+section {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #00cc66;
+  border: 5px solid black;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+#top-img {
+  border-radius: 100%;
+  border: 20px groove orange;
+  margin: 15px auto 30px;
+  display: block;
+}
+
+#first-heading {
+  color: blue;
+}
+
+#second-heading {
+  color: red;
+}
