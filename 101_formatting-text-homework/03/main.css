@@ -1,0 +1,14 @@
+h2:nth-child(1) {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h2:nth-child(2) {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h2:nth-child(3) {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
