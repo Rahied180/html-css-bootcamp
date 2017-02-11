@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  /*flex-direction: row;*/
+  /*flex-direction: row-reverse;*/
+  /*flex-direction: column;*/
+  flex-direction: column-reverse;
+}
+
+div {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  border: 2px solid red;
+}
