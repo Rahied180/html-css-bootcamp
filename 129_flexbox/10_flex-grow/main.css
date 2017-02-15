@@ -1,0 +1,36 @@
+header {
+  height: 500px;
+  border: 1px solid green;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div {
+  height: 100px;
+  /*width: 200px;*/
+  background-color: red;
+  border: 2px solid blue;
+  text-align: center;
+  color: white;
+}
+
+#a {
+  flex-grow: 1;
+}
+
+#b {
+  flex-grow: 1;
+}
+
+#c {
+  flex-grow: 2;
+  width: 100%;
+}
+
+#d {
+  flex-grow: 1;
+}
+
+#e {
+  flex-grow: 2;
+}
