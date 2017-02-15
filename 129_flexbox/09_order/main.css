@@ -1,0 +1,34 @@
+header {
+  height: 500px;
+  border: 1px solid green;
+  display: flex;
+}
+
+div {
+  height: 100px;
+  width: 150px;
+  background-color: red;
+  border: 2px solid blue;
+  text-align: center;
+  color: white;
+}
+
+#a {
+  order: 5;
+}
+
+#b {
+  order: 2;
+}
+
+#c {
+  order: 4;
+}
+
+#d {
+  order: 1;
+}
+
+#e {
+  order: 3;
+}
