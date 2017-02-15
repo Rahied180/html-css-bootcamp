@@ -1,0 +1,31 @@
+header {
+  height: 500px;
+  border: 1px solid green;
+  display: flex;
+  /*flex-direction: column;*/
+  /*align-items: flex-start;*/
+  align-items: flex-end;
+  /*align-items: center;*/
+  /*align-items: stretch;*/
+  /*align-items: baseline;*/
+}
+
+div {
+  background-color: red;
+  border: 2px solid blue;
+}
+
+#one {
+  width: 200px;
+  height: 200px;
+}
+
+#two {
+  width: 200px;
+  height: 300px;
+}
+
+#three {
+  width: 200px;
+  height: 100px;
+}
