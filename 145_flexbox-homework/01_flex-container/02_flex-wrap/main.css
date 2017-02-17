@@ -1,0 +1,17 @@
+main {
+  height: 500px;
+  border: 1px solid green;
+  display: flex;
+  /*flex-wrap: wrap;*/
+  /*flex-wrap: nowrap;*/
+  flex-wrap: wrap-reverse;
+  flex-direction: column;
+}
+
+div {
+  margin: 1rem;
+  background-color: yellow;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}

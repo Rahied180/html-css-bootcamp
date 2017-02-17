@@ -1,0 +1,13 @@
+main {
+  height: 600px;
+  border: 1px solid green;
+  display: flex;
+}
+
+div {
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+  color: white;
+  flex: 0 1 300px;
+}

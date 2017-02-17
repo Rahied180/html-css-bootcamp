@@ -1,0 +1,20 @@
+main {
+  height: 500px;
+  border: 1px solid green;
+  display: flex;
+  flex-flow: row wrap;
+  /*flex-flow: column wrap;*/
+  /*align-items: flex-start;*/
+  /*align-items: flex-end;*/
+  align-items: center;
+  /*align-items: stretch;*/
+  /*align-items: baseline;*/
+}
+
+div {
+  margin: 1rem;
+  background-color: yellow;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}

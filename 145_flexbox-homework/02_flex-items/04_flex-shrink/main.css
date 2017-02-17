@@ -1,0 +1,29 @@
+main {
+  height: 600px;
+  border: 1px solid green;
+  display: flex;
+}
+
+div {
+  height: 100px;
+  width: 300px;
+  background-color: red;
+  border: 1px solid black;
+  color: white;
+}
+
+#a {
+  flex-shrink: 1;
+}
+
+#b {
+  flex-shrink: 1;
+}
+
+#c {
+  flex-shrink: 2;
+}
+
+#d {
+  flex-shrink: 2;
+}

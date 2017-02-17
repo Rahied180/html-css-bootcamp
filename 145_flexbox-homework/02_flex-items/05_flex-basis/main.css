@@ -1,0 +1,15 @@
+main {
+  height: 600px;
+  border: 1px solid green;
+  display: flex;
+}
+
+div {
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+  color: white;
+  flex-basis: 300px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
