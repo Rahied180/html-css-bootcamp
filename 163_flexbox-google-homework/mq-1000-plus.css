@@ -1,0 +1,40 @@
+.class5,
+.class7 {
+  width: 50%;
+}
+
+.class1,
+.class2,
+.class3,
+.class4,
+.class6 {
+  width: 20%;
+}
+
+.class1 {
+  order: 4;
+}
+
+.class2 {
+  order: 6;
+}
+
+.class3 {
+  order: 7;
+}
+
+.class4 {
+  order: 5;
+}
+
+.class5 {
+  order: 1;
+}
+
+.class6 {
+  order: 3;
+}
+
+.class7 {
+  order: 2;
+}
