@@ -1,0 +1,24 @@
+html, body, div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 1px solid yellow;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 400px;
+}
