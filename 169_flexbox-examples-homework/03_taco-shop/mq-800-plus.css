@@ -1,0 +1,15 @@
+nav {
+  width: 20%;
+}
+
+ul {
+  flex-flow: column nowrap;
+}
+
+li {
+  padding: 8px;
+}
+
+main {
+  width: 80%;
+}

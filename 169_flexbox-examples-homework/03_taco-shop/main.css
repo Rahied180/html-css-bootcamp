@@ -1,0 +1,35 @@
+html, body, nav, ul, li, main, section {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  max-width: 1000px;
+  margin: 10px auto;
+}
+
+main, nav {
+  padding: 10px;
+  border: 2px solid red;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-flow: column nowrap;
+  list-style: none;
+}
+
+li {
+  padding: 5px 0;
+}
+
+section {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

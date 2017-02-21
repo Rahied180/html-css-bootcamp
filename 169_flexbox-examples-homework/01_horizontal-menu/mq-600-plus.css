@@ -1,0 +1,11 @@
+ul {
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+a {
+  border-top: none;
+  border-bottom: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}

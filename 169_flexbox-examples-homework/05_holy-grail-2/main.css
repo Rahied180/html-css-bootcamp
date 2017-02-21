@@ -1,0 +1,16 @@
+html, body, header, div, nav, main, aside, footer {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+}
+
+header, nav, main, aside, footer {
+  border: 2px solid black;
+  background-color: lightgreen;
+  padding: 5px;
+}

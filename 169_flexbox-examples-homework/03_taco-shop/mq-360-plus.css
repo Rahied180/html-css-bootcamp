@@ -1,0 +1,8 @@
+ul {
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+li {
+  padding: 5px 10px;
+}
