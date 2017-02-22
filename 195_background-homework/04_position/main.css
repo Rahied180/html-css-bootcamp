@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  margin: 10px;
+  width: 600px;
+  height: 600px;
+  border: 2px solid green;
+  background-image: url(../dog.png);
+  background-repeat: no-repeat;
+  background-position: 250px 250px;
+}
