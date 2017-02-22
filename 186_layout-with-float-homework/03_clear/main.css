@@ -1,0 +1,27 @@
+html, body, div, section {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 2px solid green;
+  padding: 15px;
+}
+
+div {
+  border: 2px solid red;
+  height: 150px;
+  width: 150px;
+  float: left;
+}
+
+section {
+  border: 2px solid blue;
+  height: 20px;
+}
+
+section:nth-of-type(1) {
+  clear: both;
+}
