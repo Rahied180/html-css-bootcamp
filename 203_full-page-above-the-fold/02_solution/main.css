@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cantarell', sans-serif;
+}
+
+#index-atf {
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #5b5b5b;
+  background-image: url("img/background-photo-mobile-devices.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+h1,
+#index-sub,
+#index-btn-signup {
+  text-transform: uppercase;
+}
+
+h1 {
+  color: rgb(239, 236, 236);
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+#index-sub {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+}
+
+#index-sub strong {
+  font-weight: 700;
+}
+
+#index-btn-signup {
+  padding: 6px 10px;
+  border: 1px solid rgb(202, 250, 234);
+  border-radius: 3px;
+  color: rgb(202, 250, 234);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+#index-btn-signup:hover {
+  background-color: rgb(202, 250, 234);
+  color: rgb(100, 100, 100);
+}

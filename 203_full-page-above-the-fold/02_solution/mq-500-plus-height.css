@@ -1,0 +1,14 @@
+h1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+#index-sub {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 0.95rem;
+}
+
+#index-btn-signup {
+  font-size: 1rem;
+}
