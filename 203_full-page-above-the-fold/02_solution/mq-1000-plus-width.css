@@ -1,11 +1,11 @@
-h1 {
+#atf-heading {
   font-size: 2.2rem;
 }
 
-#index-sub {
+#atf-paragraph {
   font-size: 1.15rem;
 }
 
-#index-btn-signup {
+#atf-signup {
   font-size: 1.25rem;
 }

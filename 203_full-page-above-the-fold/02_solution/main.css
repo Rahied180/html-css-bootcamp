@@ -1,3 +1,5 @@
+/* ====== GENERAL ====== */
+
 * {
   padding: 0;
   border: 0;
@@ -5,11 +7,52 @@
   box-sizing: border-box;
 }
 
-body {
+html {
   font-family: 'Cantarell', sans-serif;
+  color: whitesmoke;
 }
 
-#index-atf {
+/* ====== HEADER ====== */
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 2.5rem;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+}
+
+#logo:hover {
+  color: #9dbb88;
+}
+
+#logo-icon {
+  display: none;
+}
+
+#logo-text {
+  font-size: 1rem;
+}
+
+header nav {
+  display: none;
+}
+
+/* ====== SECTION: above the fold (atf) ====== */
+
+#atf {
   height: 100vh;
   padding: 10px;
   display: flex;
@@ -22,42 +65,66 @@ body {
   background-size: cover;
   background-position: center;
   text-align: center;
-}
-
-h1,
-#index-sub,
-#index-btn-signup {
   text-transform: uppercase;
 }
 
-h1 {
-  color: rgb(239, 236, 236);
+#atf-heading {
   font-size: 1.125rem;
   font-weight: 700;
 }
 
-#index-sub {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  color: rgb(255, 255, 255);
+#atf-paragraph {
+  margin: 25px 0;
   font-size: 0.8rem;
 }
 
-#index-sub strong {
+#atf-paragraph strong {
   font-weight: 700;
 }
 
-#index-btn-signup {
+#atf-signup {
   padding: 6px 10px;
-  border: 1px solid rgb(202, 250, 234);
+  border: 1px solid whitesmoke;
   border-radius: 3px;
-  color: rgb(202, 250, 234);
+  color: inherit;
   font-weight: 700;
   font-size: 0.9rem;
   text-decoration: none;
 }
 
-#index-btn-signup:hover {
-  background-color: rgb(202, 250, 234);
+#atf-signup:hover {
+  background-color: whitesmoke;
   color: rgb(100, 100, 100);
+}
+
+/* ====== FOOTER ====== */
+
+footer nav {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+footer nav a {
+  display: flex;
+  align-items: center;
+  background-color: deepskyblue;
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  color: inherit;
+  text-decoration: none;
+}
+
+footer nav a:last-of-type {
+  border-bottom: none;
+}
+
+footer nav a:hover {
+  background-color: royalblue;
+}
+
+footer nav a svg {
+  width: 2rem;
+  height: 2rem;
+  fill: currentColor;
+  margin: 0 .5rem;
 }
