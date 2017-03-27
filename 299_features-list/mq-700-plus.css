@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+}
+
+#features {
+  width: 75%;
+  height: 85%;
+}
+
+#features div {
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  border-bottom: 1px solid red;
+}
+
+#features div:last-of-type {
+  border-bottom: none;
+}
+
+#features #tachometer-wrapper svg {
+  order: 2;
+}
+
+#features #tachometer-wrapper p {
+  order: 1;
+}
+
+#features div p {
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 0 20px;
+}
