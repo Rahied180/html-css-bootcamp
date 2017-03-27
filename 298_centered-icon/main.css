@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  padding: 50px;
+  border: 1px solid red;
+  border-radius: 100%;
+}
+
+div svg {
+  width: 200px;
+  height: 200px;
+  fill: red;
+}
