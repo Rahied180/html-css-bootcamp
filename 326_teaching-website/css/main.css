@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Marketing Above The Fold Section */
+
+#marketing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../img/g_s_03_five_small.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#marketing header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#marketing header h2 a {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8rem;
+  color: #dddddd;
+  text-decoration: none;
+}
+
+#marketing header h2 a:hover {
+  text-decoration: underline;
+}
+
+#marketing header #login {
+  display: none;
+}
+
+#marketing main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#marketing main h1 {
+  text-align: center;
+}
+
+#marketing main h1 a {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.4rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#marketing main h1 a:hover {
+  color: #ff0000;
+}
+
+#marketing footer {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(120, 120, 120, .4);
+}
+
+#marketing footer p {
+  width: 90%;
+  margin-bottom: 15px;
+  font-family: 'Indie Flower', cursive;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+#marketing footer #signup-btn {
+  width: fit-content;
+  padding: 10px;
+  background-color: #ff0000;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#marketing footer #signup-btn:hover {
+  text-decoration: underline;
+}
+
+#marketing footer nav {
+  display: none;
+}
